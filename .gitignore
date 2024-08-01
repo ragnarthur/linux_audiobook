@@ -1,0 +1,26 @@
+﻿
+### Arquivo `.gitignore`
+
+Inclua também um arquivo `.gitignore` para ignorar arquivos desnecessários:
+
+```plaintext
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+ENV/
+env.bak/
+.venv.bak/
+.idea/
+*.DS_Store
+
+# Arquivos de áudio
+audiobook_part_*.mp3
+audiobook_completo.mp3
+
+# PDF
+*.pdf
